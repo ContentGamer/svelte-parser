@@ -1,0 +1,10 @@
+[package]
+name = "svelte-parser"
+version = "0.1.1"
+edition = "2021"
+authors = ["ContentGamer"]
+description = "Compile Svelte code into HTML, JS, CSS for expressrs"
+license = "AGPL-1.0-only"
+
+[dependencies]
+expressrs = "0.1.5"

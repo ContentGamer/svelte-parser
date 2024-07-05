@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "ES2023",
+		"module": "ES2022",
+		"strict": true,
+		"esModuleInterop": true,
+		"rootDir": "src",
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"dist"
+	]
+}
