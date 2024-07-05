@@ -2,6 +2,12 @@
 
 a Svelte Parser for the `expressrs` crate.
 
+## Source code
+
+This is a source code to get you started into making your own `expressrs` plugin
+If you want to start making a plugin, clone this source code and make sure you have rust
+installed, then navigate to `src/constants.rs` so you can change the Name, ID (should be lowercase), and Plugin-ID into your perspective liking.
+
 ## How can i use this?
 
 First you'll need to install the `expressrs` crate
