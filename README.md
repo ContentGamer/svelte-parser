@@ -20,16 +20,16 @@ use svelte_parser::svelte;
 
 fn main() {
 	let express = ExpressLib::new();
-	let app = express();
+	let mut app = express();
 
 	app.plugins.push(svelte());
 	// Serve a directory called 'public' that has .svelte files
 	app.serve_directory(
-        "public",
-        Some(DirectoryOptions {
-            plugin: "svelte".to_string(),
-        }),
-    );
+          "public",
+          Some(DirectoryOptions {
+             plugin: "svelte".to_string(),
+          }),
+        );
 }
 
 ```
